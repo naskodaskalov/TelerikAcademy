@@ -8,7 +8,7 @@ table {
     text-align: left;
 	color:#333333;
 	border-width: 1px;
-	border-color: #999999;
+	border-color: #B3AFAF;
     border-collapse: separate;
 border-spacing: 0;
 }
@@ -23,14 +23,14 @@ table th {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
-	border-color: #999999;
+	border-color: #B3AFAF;
 }
 table td {
 	border-width: 1px;
     height: 20px;
 	padding: 5px;
 	border-style: solid;
-	border-color: #999999;
+	border-color: #B3AFAF;
 }
 
 .productID {
@@ -64,7 +64,40 @@ table td {
     width:22px;
     height: 22px;
 }
-
+.firstPage{
+    background:url(./firstpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:22px;
+    height: 22px;
+}
+.prevPage{
+    background:url(./prevpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:22px;
+    height: 22px;
+}
+.nextPage{
+    background:url(./nextpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:22px;
+    height: 22px;
+}
+.lastPage{
+    background:url(./lastpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:22px;
+    height: 22px;
+}
+.numberPage{
+    cursor:pointer;
+    border:1px;
+    width:22px;
+    height: 22px;
+}
 span.bottomInfo {
     float: right;
 }
