@@ -1,16 +1,18 @@
 body {
     width: 1000px;
+	font-family: Calibri;
+    text-align: left;
 }
 
 table {
-	font-family: Calibri;
 	font-size:13px;
     text-align: left;
-	color:#333333;
+	background:#FFFFFF;
 	border-width: 1px;
-	border-color: #B3AFAF;
+	border-color: #d3d7db;
     border-collapse: separate;
-border-spacing: 0;
+    border-spacing: 0;
+    font-weight: normal;
 }
 
 table th.topSide {
@@ -19,18 +21,26 @@ table th.topSide {
 }
 
 table th {
-	background:#E6E7E8;
+	background:#e8e9eb;
+    text-align: left;
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
-	border-color: #B3AFAF;
+	border-color: #d3d7db;
+    font-weight: normal;
 }
 table td {
 	border-width: 1px;
+    text-align: left;
     height: 20px;
 	padding: 5px;
 	border-style: solid;
-	border-color: #B3AFAF;
+	border-color: #d3d7db;
+    font-weight: normal;
+}
+
+table th.headers {
+    background-color: #dfe2e6;
 }
 
 .productID {
@@ -61,6 +71,7 @@ table td {
     background:url(./filter.png) no-repeat;
     cursor:pointer;
     border:none;
+	padding: 6px;
     width:22px;
     height: 22px;
 }
@@ -68,6 +79,7 @@ table td {
     background:url(./firstpage.png) no-repeat;
     cursor:pointer;
     border:none;
+    padding: 6px;
     width:22px;
     height: 22px;
 }
@@ -76,12 +88,14 @@ table td {
     cursor:pointer;
     border:none;
     width:22px;
+    padding: 6px;
     height: 22px;
 }
 .nextPage{
     background:url(./nextpage.png) no-repeat;
     cursor:pointer;
     border:none;
+    padding: 6px;
     width:22px;
     height: 22px;
 }
@@ -90,19 +104,32 @@ table td {
     cursor:pointer;
     border:none;
     width:22px;
+    padding: 6px;
     height: 22px;
 }
 .numberPage{
     cursor:pointer;
-    border:1px;
-    width:22px;
     height: 22px;
 }
+
 span.bottomInfo {
     float: right;
 }
 
 table th.bottomItems {
+    background-color: #dfe2e6;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.bottomItems a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.bottomItems a:focus {
+    outline: 1px solid;
+    outline-color: #c75a06;
 }
