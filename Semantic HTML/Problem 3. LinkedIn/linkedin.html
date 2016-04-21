@@ -18,15 +18,18 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">What is LinkedIn?</a></li>
                 <li><a href="#">Join Today</a></li>
-                <li>Sign in</li>
+                <fieldset>
+                    <legend>Sign in</legend>
                 <ul class="circle">
                     <form method="POST">
 
-                        <li><label for="email">E-mail:</label><input type="text" name="email" placeholder="Enter your mail" value=""></li>
-                        <li><label for="password">Password:</label><input type="password" name="password" placeholder="Enter your password" value=""></li>
+                        <li><label for="email">E-mail:</label><input type="text" name="email" placeholder="Enter your mail" value="" required="required"></li>
+                        <li><label for="password">Password:</label><input type="password" name="password" placeholder="Enter your password" value="" required="required"></li>
                         <li><input type="submit" name="signin" value="Sign In"></li>
                     </form>
                 </ul>
+                </fieldset>
+                
             </ul>
 
             <aside>
