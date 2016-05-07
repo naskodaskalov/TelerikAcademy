@@ -1,0 +1,82 @@
+body {
+    font-family: Calibri;
+}
+
+.windowsCalc {
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    background: linear-gradient(to bottom, #BCDEFF, white, #AAD1F5 50%);
+    border-radius: 5px;
+}
+
+div.programName {
+    padding: 5px 10px 10px 10px;
+}
+
+header p {
+    margin: -20px 100px 0px 20px;
+}
+
+.programButtons {
+    margin-top: -37px;
+    margin-right: 8px;
+    float: right;
+}
+
+button.minimize {
+    width: 31px;
+    height: 22px;
+    /* background: linear-gradient(to bottom, #D8E5F2, #ABC0D9 70%); */
+    background-image: url(./images/minimize.png);
+    border: none;
+}
+
+button.maximize {
+    width: 28px;
+    height: 22px;
+    margin-left: -4px;
+    /* background: linear-gradient(to bottom, #D8E5F2, #ABC0D9 70%); */
+    background-image: url(./images/maximize.png);
+    border: none;
+}
+
+button.exit {
+    width: 52px;
+    height: 22px;
+    margin-left: -4px;
+    /* background: linear-gradient(to bottom, #FBA49D, #CD3227 70%); */
+    background-image: url(./images/exit.png);
+    border: none;
+}
+
+content {
+    background: linear-gradient(to bottom, #EBF3FD, #D7E4F2 70%);
+    margin-left: 10px;
+    border: 1px solid #8B98A4;
+    width: 380px;
+    height: 355px;
+    border-radius: 3px;
+}
+
+nav {
+    border-bottom: 1px solid #8B98A4;
+    font-size: 20px;
+    background: linear-gradient(to top, #F4F8FC, #DAE0F3);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+    position: left;
+    display: inline;
+}
+
+li::first-letter {
+    text-decoration: underline;
+}
+

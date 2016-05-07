@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 4. Windows Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+    <table id="calc">
+        <tr class="menu">
+            <td>
+                <span><a href="#">View</a></span>
+                <span><a href="#">Edit</a></span>
+                <span><a href="#">Help</a></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table id="middle">
+                    <tr>
+                        <td colspan="9">
+                            <input type="textbox" class="resultBox" name="resultBox" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="9">2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">
+                            <p><input type="radio" id="Hex" name="counting" value="Hex"><label for="Hex">Hex</label></p>
+                            <p><input type="radio" id="Dec" name="counting" value="Dec" checked="checked"><label for="Dec">Dec</label></p>
+                            <p><input type="radio" id="Oct" name="counting" value="Oct"><label for="Oct">Oct</label></p>
+                            <p><input type="radio" id="Bin" name="counting" value="Bin"><label for="Bin">Bin</label></p>
+                        </td>
+                        <td>
+                            <button type="submit"></button>
+                        </td>
+                        <td>
+                            <button type="submit">Mod</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">A</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">MC</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">MR</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">MS</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">M+</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">M-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">(</button>
+                        </td>
+                        <td>
+                            <button type="submit">)</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">B</button>
+                        </td>
+                        <td>
+                            <button type="submit"><-</button>
+                        </td>
+                        <td>
+                            <button type="submit">CE</button>
+                        </td>
+                        <td>
+                            <button type="submit">C</button>
+                        </td>
+                        <td>
+                            <button type="submit">+-</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">kor</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">RoL</button>
+                        </td>
+                        <td>
+                            <button type="submit">RoR</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">C</button>
+                        </td>
+                        <td>
+                            <button type="submit">7</button>
+                        </td>
+                        <td>
+                            <button type="submit">8</button>
+                        </td>
+                        <td>
+                            <button type="submit">9</button>
+                        </td>
+                        <td>
+                            <button type="submit">/</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">%</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">
+                            <p><input type="radio" id="Qword" name="type" value="Qword" checked="checked"><label for="Qword">Qword</label></p>
+                            <p><input type="radio" id="Dword" name="type" value="Dword"><label for="Dword">Dword</label></p>
+                            <p><input type="radio" id="Word" name="type" value="Word"><label for="Word">Word</label></p>
+                            <p><input type="radio" id="Byte" name="type" value="Byte"><label for="Byte">Byte</label></p>
+                        </td>
+                        <td>
+                            <button type="submit">Or</button>
+                        </td>
+                        <td>
+                            <button type="submit">Xor</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">D</button>
+                        </td>
+                        <td>
+                            <button type="submit">4</button>
+                        </td>
+                        <td>
+                            <button type="submit">5</button>
+                        </td>
+                        <td>
+                            <button type="submit">6</button>
+                        </td>
+                        <td>
+                            <button type="submit">*</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">1/x</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Lsh</button>
+                        </td>
+                        <td>
+                            <button type="submit">Rsh</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">E</button>
+                        </td>
+                        <td>
+                            <button type="submit">1</button>
+                        </td>
+                        <td>
+                            <button type="submit">2</button>
+                        </td>
+                        <td>
+                            <button type="submit">3</button>
+                        </td>
+                        <td>
+                            <button type="submit">-</button>
+                        </td>
+                        <td rowspan="2">
+                            <button type="submit">=</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Not</button>
+                        </td>
+                        <td>
+                            <button type="submit">And</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">F</button>
+                        </td>
+                        <td colspan="2">
+                            <button type="submit">0</button>
+                        </td>
+                        <td>
+                            <button type="submit" disabled="disabled">.</button>
+                        </td>
+                        <td>
+                            <button type="submit">+</button>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
