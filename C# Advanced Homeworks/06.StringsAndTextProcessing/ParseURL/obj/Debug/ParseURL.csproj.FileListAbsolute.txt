@@ -1,0 +1,1 @@
+Z:\Users\pavlinatsvetanova\Programing Tutorials\C# Advanced - Telerik\06.StringsAndTextProcessing\ParseURL\bin\Debug\ParseURL.exe.config

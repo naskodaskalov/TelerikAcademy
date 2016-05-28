@@ -1,0 +1,1 @@
+Z:\Users\pavlinatsvetanova\Programing Tutorials\C# Advanced - Telerik\06.StringsAndTextProcessing\ExtractSentences\bin\Debug\ExtractSentences.exe.config
